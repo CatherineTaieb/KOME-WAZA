@@ -1,0 +1,31 @@
+.presentation{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    &__content{
+
+        h1{
+            margin: 16px 0 0 0;
+        }
+
+        h3{
+            margin: 0;
+            font-size: 0.8rem;
+        }
+
+        p{
+            text-align: justify;
+            padding: 16px;
+        }
+    }
+
+
+    &__image{
+        img{flex-grow: 6;
+    }
+}
+}
+
