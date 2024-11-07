@@ -30,6 +30,13 @@ body img {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
 .header__navigation {
   font-size: 20px;
 }
@@ -40,9 +47,25 @@ body img {
   text-align: center;
   line-height: 32px;
 }
+@media (min-width: 600px) {
+  .header__navigation ul li {
+    display: inline;
+    padding: 16px;
+  }
+}
 
 .presentation {
   padding: 16px;
+}
+@media (min-width: 600px) {
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70%;
+  }
 }
 .presentation__title {
   text-align: center;
@@ -57,6 +80,17 @@ body img {
   flex-direction: row;
   align-items: center;
   max-width: 100%;
+}
+@media (min-width: 600px) {
+  .presentation__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+  }
+  .presentation__content p {
+    text-align: right;
+  }
 }
 .presentation__content img {
   max-width: 40%;
@@ -99,12 +133,22 @@ body img {
 .cart iframe {
   max-width: 80%;
 }
+@media (min-width: 600px) {
+  .cart iframe {
+    width: 200%;
+  }
+}
 
 footer {
   text-align: center;
   background-color: #003E52;
   color: white;
   padding-bottom: 32px;
+}
+@media (min-width: 600px) {
+  footer {
+    max-width: 100%;
+  }
 }
 footer a:link, footer a:visited, footer a:active {
   text-decoration: none;

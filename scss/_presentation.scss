@@ -2,9 +2,16 @@
 
     padding: $section-padding;
 
+    @media (min-width: 600px){
+        @include flexColumnAlign;
+        margin: auto;
+        max-width: 70%;
+    }
+
     &__title{
         @include title-center;
-    }
+
+   }
 
     &__subtitle{
         @include title-center;
@@ -15,12 +22,23 @@
         @include flexRowAlign;
         max-width: 100%;
 
+        @media (min-width: 600px){
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                max-width: 80%;
+
+            p{
+                text-align: right;
+         
+            }
+        }
+
+
         img{
             max-width: 40%;
         }
+        
 
     }
-
 }
-
-

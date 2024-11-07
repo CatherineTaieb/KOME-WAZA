@@ -11,6 +11,9 @@ body{
     grid-template-columns: 1fr;
 
 
+
+
+
     a:link,a:visited,a:active,{
         text-decoration: none;
         color:$color-primary;
@@ -24,6 +27,5 @@ body{
         max-width: 100%;
         margin: 0;
     }
-
 
 }

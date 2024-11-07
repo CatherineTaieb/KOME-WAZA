@@ -2,8 +2,14 @@
 
     @include flexColumnAlign;
 
+        @media (min-width: 600px){
+            @include flexRowAlign;
+        }
+
     &__navigation {
         font-size: $font-size-menu;
+
+        
 
         ul{
             list-style: none;
@@ -12,8 +18,13 @@
             li{
                 text-align: center;
                 line-height: 32px;
+
+                @media (min-width: 600px){
+                    display: inline;
+                    padding: 16px;
+                }
             }
         }
-    }
+}
 
 }
