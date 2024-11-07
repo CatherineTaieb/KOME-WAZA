@@ -1,6 +1,6 @@
 $font-family:'Roboto';
 
-$global-margin:16px;
+$global-margin:0px;
 
 $font-size-menu:20px;
 $font-size-default:16px;
@@ -12,3 +12,22 @@ $color-hover:#6cadc2;
 
 $footer-height:200px;
 
+
+
+
+
+
+@mixin flexRowAlign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  @mixin flexColumnAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

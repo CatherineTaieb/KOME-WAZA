@@ -1,9 +1,6 @@
 .header{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnAlign;
 
     &__navigation {
         font-size: $font-size-menu;
