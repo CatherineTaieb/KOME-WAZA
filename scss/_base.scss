@@ -1,19 +1,29 @@
 body{
     font-family: $font-family;
     font-size: $font-size-default;
-    text-align: center;
+    color: $color-primary;
+    text-align: justify;
+
 
     margin: $global-margin;
 
     display: grid;
     grid-template-columns: 1fr;
 
-    img{
-        max-width: 100%;
+
+    a:link,a:visited,a:active,{
+        text-decoration: none;
+        color:$color-primary;
+        }
+
+    a:hover{
+        color: $color-highlight;
     }
 
-    iframe{
-        max-width: 20px;
+    img{
+        max-width: 100%;
+        margin: 0;
     }
+
 
 }

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>KOME WAZA</title>
 
@@ -34,13 +34,12 @@
             <li>More...</li>
         </ul>
     </nav>
-
-    <img class="header__image" src="images/header-image.jpg" alt="food in plates">
-        </div>
-        
 </header>
 
 
+<section class="images">
+    <img class="header__image" src="images/header-image.jpg" alt="food in plates">
+</section>
 
 
 
@@ -52,25 +51,21 @@
             <img src="images/epices.jpg" alt="epices">
             <p>Respect the fish! Kome Waza strives to provide you with a delicate balance between time-honored Japanese sushi traditions and exciting new Asian-inspired flavors in a refreshing new take on the East Coast poke trend.</p>
     </div>
-
 </section>
 
 
 <section class="images">
-
     <img src="images/images-slider.JPG" alt="food in plates">
-
 </section>
 
 
-<section class="menu">
-
-    <h2>SIGNATURE POKE</h2>
-
-    <nav>
+<section class="pokemenu">
+    <h2 class="pokemenu__title">SIGNATURE POKE</h2>
+    <nav class="pokemenu__nav">
         <ol>
-
-            <li>WHITE SOY AVOCADO CREAM BOWL
+            
+            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                WHITE SOY AVOCADO CREAM BOWL
                 <p>Seared tuna over 8-grain brown rice with mixed greens, hijiki quinoa, white soy avocado cream sauce, sesame seeds, garlic chips, kizami nori, tobiko, and  salsa
                 </p>
             </li>
@@ -84,7 +79,9 @@
                 <p>Hamachi and scallops over mixed greens with mango, hijiki quinoa, edamame, tomato, mango anchovy sauce, masago, sesame seeds, and radish sprouts</p>
             </li>
 
-            <li>POMEGRANATE CITRUS SPICE BOWL
+            
+            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M428.3 3c11.6-6.4 26.2-2.3 32.6 9.3l4.8 8.7c19.3 34.7 19.8 75.7 3.4 110C495.8 159.6 512 197.9 512 240c0 18.5-3.1 36.3-8.9 52.8c-6.1 17.3-28.5 16.3-36.8-.1l-11.7-23.4c-4.1-8.1-12.4-13.3-21.5-13.3L360 256c-13.3 0-24-10.7-24-24l0-80c0-13.3-10.7-24-24-24l-17.1 0c-21.3 0-30-23.9-10.8-32.9C304.7 85.4 327.7 80 352 80c28.3 0 54.8 7.3 77.8 20.2c5.5-18.2 3.7-38.4-6-55.8L419 35.7c-6.4-11.6-2.3-26.2 9.3-32.6zM171.2 345.5L264 160l40 0 0 80c0 26.5 21.5 48 48 48l76.2 0 23.9 47.8C372.3 443.9 244.3 512 103.2 512l-58.8 0C19.9 512 0 492.1 0 467.6c0-20.8 14.5-38.8 34.8-43.3l49.8-11.1c37.6-8.4 69.5-33.2 86.7-67.7z"/></svg>
+                POMEGRANATE CITRUS SPICE BOWL
                 <p>Salmon over sushi rice with mixed greens, tomato, sweet onion, cucumber, edamame, pomegranate citrus spice sauce, ogo seaweed, sesame seeds, radish sprouts, and tobiko
                 </p>
             </li>
@@ -96,14 +93,15 @@
 
         </ol>
     </nav>
+</section>
 
-<img src="images/sushis.jpg" alt="sushis">
 
+<section class="images">
+    <img src="images/sushis.jpg" alt="sushis">
 </section>
 
 
 <section class="cart">
-
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d129148.94594529174!2d-74.06217447444614!3d40.728755026817645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1730971781222!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </section>
@@ -112,8 +110,12 @@
 
 <footer>
 <h2>Contact</h2>
-<p>646-368-1727</p>
-<p>info@komewaza.com</p>
+
+<address>
+    <a href="tel:+16463681727">646-368-1727</a><br>
+    <a href="mailto:info@komewaza.com">info@komewaza.com</a>
+</address>
+
 </footer>
     
 </body>

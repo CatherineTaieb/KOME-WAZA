@@ -1,0 +1,29 @@
+.pokemenu{
+
+padding : $section-padding;
+
+    &__title{
+        @include title-center;
+    }
+
+    &__nav 
+
+        ol{
+            padding: $section-padding;
+            border-top: solid 1px $color-highlight;
+
+        }
+
+        li{
+            margin-left: 48px;
+        
+            svg{
+                width: 20px;
+                position: absolute;
+                left: 32px;
+                fill: $color-highlight;
+            }
+
+    }
+
+}

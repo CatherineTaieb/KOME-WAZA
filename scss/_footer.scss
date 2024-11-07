@@ -1,0 +1,17 @@
+footer{
+    text-align: center;
+    background-color : $color-primary;
+    color: $color-white;
+    padding-bottom: 32px;
+
+
+    a:link,a:visited,a:active,{
+        text-decoration: none;
+        color: $color-white;
+        }
+
+    a:hover{
+        color: $color-highlight;
+    }
+
+}

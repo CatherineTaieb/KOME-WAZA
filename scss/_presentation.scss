@@ -1,19 +1,25 @@
 .presentation{
 
+    padding: $section-padding;
+
+    &__title{
+        @include title-center;
+    }
+
+    &__subtitle{
+        @include title-center;
+    }
 
     &__content{
 
         @include flexRowAlign;
-        
-        p{
-            text-align: justify;
-            padding: 16px;
+        max-width: 100%;
+
+        img{
+            max-width: 40%;
         }
+
     }
-
-
-
-
 
 }
 

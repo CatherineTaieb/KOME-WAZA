@@ -1,33 +1,43 @@
+/* TYPE DE POLICE */
+
 $font-family:'Roboto';
 
-$global-margin:0px;
-
+/* TAILLE POLICE */
 $font-size-menu:20px;
 $font-size-default:16px;
 
+/* COULEUR DE TEXTE */
+$color-primary:#003E52;
+$color-highlight:#6cadc2;
+$color-white:white;
 
 
-$color-primay:#003E52;
-$color-hover:#6cadc2;
 
+/* MARGIN DU BODY ET PADDING DE SECTION */
+$global-margin: 0px;
+$section-padding : 16px;
+
+/* TAILLE DU FOOTER */
 $footer-height:200px;
 
 
 
-
+@mixin title-center{
+  text-align:center;
+  margin:0;
+}
 
 
 @mixin flexRowAlign {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 
-  @mixin flexColumnAlign{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+@mixin flexColumnAlign{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
